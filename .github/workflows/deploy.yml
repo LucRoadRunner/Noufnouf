@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
+ release:
     runs-on: self-hosted
     environment: test
     steps:
