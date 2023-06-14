@@ -10,6 +10,7 @@ jobs:
   deploy-test:
 
     runs-on: [ self-hosted, runner-test ]
+    environment: test
     
     steps:
       - name: Checkout
