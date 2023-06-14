@@ -18,7 +18,7 @@ jobs:
         with:
           version: 3.11.2
 
-       - name: Run echo
+      - name: Run echo
         run: |
            echo "hello world!"
                   
