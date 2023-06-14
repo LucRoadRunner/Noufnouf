@@ -9,7 +9,7 @@ jobs:
 
   deploy-test:
 
-    runs-on: [ self-hosted, runners-test ]
+    runs-on: [ self-hosted, runner-test ]
     environment: testing
 
     steps:
